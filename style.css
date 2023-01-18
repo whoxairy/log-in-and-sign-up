@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maincontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #A6BB8D;
+}
+.secondcontainer {
+    border-radius: 30px;
+    padding: 10px;
+    height: 30rem;
+    width: 20rem;
+    text-align: center;
+    background-color: #3C6255;
+}
+h1 {
+    color: white;
+}
+form {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+input {
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+button {
+    align-self: center;
+    width: 30%;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    border: none;
+    transition: .5s;
+}
+button:hover {
+    height: 30px;
+    width: 40%;
+    background-color: #61876E;
+    outline: none;
+    border: none;
+}
+p{
+    color: white;
+}
