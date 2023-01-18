@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    border: 1px solid red;
+}
+/*a div behind green container and white container*/
+.backContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+/*green container in the left*/
+.leftContainer {
+    height: 100vh;
+    width: 50%;
+    padding-left: 100px;
+    color: white;
+    background-color: #3C6255;
+}
+/*styling font in the left container*/
+span {
+    color: #A3BB98;
+}
+.logo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*white container in the right*/
+.rightContainer {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white; 
+}
+.logo {
+    margin-top: 10px;
+}
+.mainContent {
+    margin: 100px 0 50px 0;
+    font-size: 3rem;
+} 
+.formSection {
+    height: 50vh;
+    width: 300px;
+    border: 1px solid red; 
+}
+/*this code for spacing and style in form section (start)*/
+.maintextRight , .textcontentRight , .emailText , .password , .repeatPassword {
+    margin: 5px 0 5px 0;
+}
+.maintextRight {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rinput {
+    margin-bottom: 30px;
+}
+/*spacing in formsection end here*/
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.inputForm {
+    display: flex;
+}
+.chckBox {
+    width: 50px;
+}
+.createaccountBtn {
+    width: 160px;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid #3C6255;
+    outline: none;
+}
+/*styling input in the form section*/
+input {
+    color: white;
+    background-color: grey;
+    border-radius: 50px;
+    width: 250px;
+}
